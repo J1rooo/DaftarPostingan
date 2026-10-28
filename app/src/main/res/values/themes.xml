@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.DaftarPostingan" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="android:statusBarColor">@color/dark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.DaftarPostingan.Dialog</item>
+    </style>
+
+    <!-- Tombol dialog berwarna gelap agar terbaca di latar putih -->
+    <style name="ThemeOverlay.DaftarPostingan.Dialog" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorPrimary">@color/text_primary</item>
+    </style>
+</resources>
